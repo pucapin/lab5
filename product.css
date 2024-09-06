@@ -1,0 +1,164 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    background-color: orange;
+    height: 100vh;
+}
+
+nav {
+    height: 40px;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    padding: 8px;
+}
+
+#searchbar {
+    height: 26px;
+    border-radius: 20px;
+    border: 2px, solid, cadetblue;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.area {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.product-block {
+    height: 820px;
+    width: 1200px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+#product-half1 {
+    width: 600px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#product-half2 {
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 130px;
+    text-align: justify;
+}
+#image {
+    height: 500px;
+    width: auto;
+    position: relative;
+}
+
+#prod-name {
+    font-size: 40px;
+    color: cadetblue
+}
+
+#add-cart {
+    height: 60px;
+    width: 140px;
+    border-radius: 20px;
+    font-size: 20px;
+    opacity: 80%;
+    border: 0;
+    background-color: coral;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+    margin-left: 0px;
+    margin-top: 40px;
+}
+
+#add-cart:hover {
+    height: 60px;
+    width: 140px;
+    border-radius: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    opacity: 80%;
+    border: 0;
+    background-color: cadetblue;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.featured {
+    width: 100vw;
+    height: 400px;
+    background-color: white ;
+}
+
+#titlebar {
+    margin-top: 18px;
+    color: coral;
+    text-align: center;
+    background-color: white;
+}
+
+.products {
+    margin: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.container {
+    height: 180px;
+    width: 380px;
+    background-color: rgb(255, 148, 109);
+    border-radius: 30px;
+    margin: 8px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+
+
+}
+
+#product {
+    height: 160px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.view { 
+    color: rgb(19, 62, 63);
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.view:hover {
+    color: rgb(255, 208, 0);
+    font-weight: bold;
+    margin-left: 30px;
+}
